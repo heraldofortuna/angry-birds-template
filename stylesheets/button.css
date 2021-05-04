@@ -1,0 +1,16 @@
+.button {
+  background: var(--background-button);
+  box-shadow: var(--boxshadow-button);
+  border-radius: 10px;
+  padding: 10px 25px;
+  /* Text properties */
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 28px;
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
