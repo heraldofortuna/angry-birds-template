@@ -29,3 +29,9 @@
 .section--two {
   background-image: url("../assets/section-2.png");
 }
+
+/** Section three **/
+
+.section--three {
+  background-image: url("../assets/section-3.png");
+}
