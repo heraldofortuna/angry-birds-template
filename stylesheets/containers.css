@@ -2,3 +2,9 @@
   background-color: aquamarine;
   min-height: 100vh;
 }
+
+/** Section one **/
+
+.section--one {
+  background-image: url("../assets/section-1.png");
+}
