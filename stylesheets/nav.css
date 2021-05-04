@@ -1,9 +1,10 @@
 .header__nav--hamburguer {
-  background-color: cornflowerblue;
 }
 
 .header__nav--hamburguer i {
   font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .header__nav {

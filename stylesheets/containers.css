@@ -6,5 +6,14 @@
 /** Section one **/
 
 .section--one {
+  padding: 50px 0;
+  /* Background properties */
   background-image: url("../assets/section-1.png");
+  background-size: cover;
+  background-position: center;
+  /* Display properties */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
