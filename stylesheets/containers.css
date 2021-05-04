@@ -3,12 +3,12 @@
   min-height: 100vh;
 }
 
-/** Section one **/
+/*** Sections ***/
 
-.section--one {
+.section {
   padding: 50px 0;
   /* Background properties */
-  background-image: url("../assets/section-1.png");
+
   background-size: cover;
   background-position: center;
   /* Display properties */
@@ -16,4 +16,16 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+}
+
+/** Section one **/
+
+.section--one {
+  background-image: url("../assets/section-1.png");
+}
+
+/** Section two **/
+
+.section--two {
+  background-image: url("../assets/section-2.png");
 }
