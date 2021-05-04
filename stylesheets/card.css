@@ -9,6 +9,8 @@
 .card__image {
   width: 155px;
   height: 155px;
+  border-radius: 50px;
+  box-shadow: var(--boxshadow-button);
 }
 
 .card__title {
@@ -20,4 +22,10 @@
 
 .card__button {
   margin: 5px 0 0 0;
+}
+
+.card span {
+  color: var(--red-color-1);
+  font-size: 11px;
+  line-height: 19px;
 }
