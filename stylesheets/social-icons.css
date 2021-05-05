@@ -1,3 +1,25 @@
 .social-icons {
   display: none;
 }
+
+.social-icons i {
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.social-icons--facebook {
+  background-color: var(--blue-color-1);
+}
+
+.social-icons--twitter {
+  background-color: var(--blue-color-3);
+}
+
+.social-icons--youtube {
+  background-color: var(--red-color-2);
+}
+
+.social-icons--instagram {
+  background-color: var(--blue-color-2);
+}

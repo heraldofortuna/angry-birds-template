@@ -2,6 +2,10 @@ footer {
   background-color: var(--dark-color);
 }
 
+footer .social-icons {
+  display: block;
+}
+
 .footer_container {
   padding: 30px;
   /* Display properties */

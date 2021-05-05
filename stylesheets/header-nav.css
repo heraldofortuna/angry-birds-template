@@ -2,6 +2,7 @@
 }
 
 .header__nav--hamburguer i {
+  color: var(--black-color);
   font-size: 30px;
   font-weight: 700;
   cursor: pointer;
