@@ -32,10 +32,17 @@
 /** Section cards **/
 
 .section--cards {
-  background-image: url("../assets/section-3.png");
+  background-image: url("../assets/section-cards.png");
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
   gap: 25px;
+}
+
+/** Section three **/
+
+.section--three {
+  background-image: url("../assets/section-3.png");
+  height: 200px;
 }
