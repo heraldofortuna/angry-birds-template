@@ -8,6 +8,10 @@
   cursor: pointer;
 }
 
+.close-icon {
+  display: none;
+}
+
 .header__nav {
   display: none;
 }
