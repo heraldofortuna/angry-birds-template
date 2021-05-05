@@ -6,6 +6,7 @@
 /*** Sections ***/
 
 .section {
+  position: relative;
   padding: 50px 0;
   /* Background properties */
   background-size: cover;
@@ -17,16 +18,35 @@
   gap: 30px;
 }
 
+.separator {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  bottom: -42px;
+  z-index: 1;
+  /* Background properties */
+  background-size: cover;
+  background-position: center;
+}
+
 /** Section one **/
 
 .section--one {
   background-image: url("../assets/section-1.png");
 }
 
+.separator-1 {
+  background-image: url("../assets/separator-1.svg");
+}
+
 /** Section two **/
 
 .section--two {
   background-image: url("../assets/section-2.png");
+}
+
+.separator-2 {
+  background-image: url("../assets/separator-2.svg");
 }
 
 /** Section cards **/
