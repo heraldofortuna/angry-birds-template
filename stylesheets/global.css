@@ -17,6 +17,7 @@
 }
 
 * {
+  color: var(--white-color);
   font-family: var(--font-body);
   font-style: normal;
   font-weight: 400;
