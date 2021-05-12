@@ -15,3 +15,38 @@
 .header__nav {
   display: none;
 }
+
+@media (min-width: 768px) {
+  .header__nav {
+    height: 100%;
+    display: block;
+  }
+
+  .header__nav ul {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__nav li {
+    height: 100%;
+  }
+
+  .header__nav a {
+    height: 100%;
+    color: var(--black-color);
+    font-size: 20px;
+    line-height: 33px;
+    display: grid;
+    place-items: center;
+    padding: 0 25px;
+    cursor: pointer;
+  }
+
+  .header__nav a:hover {
+    background-color: var(--black-color);
+    color: var(--white-color);
+  }
+}
