@@ -22,7 +22,7 @@
   height: 80px;
   width: 100%;
   position: absolute;
-  bottom: -42px;
+  top: -38px;
   z-index: 1;
   /* Background properties */
   background-size: cover;
@@ -53,6 +53,9 @@
 
 .section--cards {
   background-image: url("../assets/section-cards.png");
+}
+
+.card-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
