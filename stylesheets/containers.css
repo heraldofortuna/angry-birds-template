@@ -29,6 +29,16 @@
   background-position: center;
 }
 
+.section__image {
+  height: 275px;
+}
+
+@media (min-width: 768px) {
+  .section__image {
+    height: 100%;
+  }
+}
+
 /** Section one **/
 
 .section--one {
