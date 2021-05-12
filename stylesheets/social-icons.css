@@ -8,20 +8,44 @@
   padding: 8px;
 }
 
+.social-icons i:hover {
+  background-color: var(--white-color);
+}
+
 .social-icons--facebook {
   background-color: var(--blue-color-1);
+  border: 2px solid var(--blue-color-1);
+}
+
+.social-icons--facebook:hover {
+  color: var(--blue-color-1);
 }
 
 .social-icons--twitter {
   background-color: var(--blue-color-3);
+  border: 2px solid var(--blue-color-3);
+}
+
+.social-icons--twitter:hover {
+  color: var(--blue-color-3);
 }
 
 .social-icons--youtube {
   background-color: var(--red-color-2);
+  border: 2px solid var(--red-color-2);
+}
+
+.social-icons--youtube:hover {
+  color: var(--red-color-2);
 }
 
 .social-icons--instagram {
   background-color: var(--blue-color-2);
+  border: 2px solid var(--blue-color-2);
+}
+
+.social-icons--instagram:hover {
+  color: var(--blue-color-2);
 }
 
 @media (min-width: 768px) {
