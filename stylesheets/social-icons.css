@@ -23,3 +23,15 @@
 .social-icons--instagram {
   background-color: var(--blue-color-2);
 }
+
+@media (min-width: 768px) {
+  .social-icons {
+    display: block;
+  }
+
+  .social-icons i {
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 10px;
+  }
+}
