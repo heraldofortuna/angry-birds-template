@@ -27,3 +27,30 @@ footer .social-icons {
   font-size: 10px;
   line-height: 17px;
 }
+
+@media (min-width: 768px) {
+  .footer_container {
+    padding: 50px;
+    /* Display properties */
+    gap: 46px;
+  }
+
+  footer .social-icons i {
+    font-size: 36px;
+    border-radius: 36px;
+    padding: 15px;
+  }
+
+  .footer__logo {
+    gap: 10px;
+  }
+
+  .footer__logo img {
+    width: 160px;
+  }
+
+  .footer__logo p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
