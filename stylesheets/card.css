@@ -19,6 +19,10 @@
   line-height: 16px;
 }
 
+.card__description {
+  display: none;
+}
+
 .card__button {
   margin: 5px 0 0 0;
 }
@@ -27,4 +31,35 @@
   color: var(--red-color-1);
   font-size: 11px;
   line-height: 19px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    gap: 22px;
+  }
+
+  .card__image {
+    width: 222px;
+    height: 222px;
+  }
+
+  .card__title {
+    color: var(--yellow-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .card__description {
+    display: block;
+    text-align: center;
+    color: var(--white-color);
+    font-size: 15.2px;
+    line-height: 25px;
+  }
+
+  .card span {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

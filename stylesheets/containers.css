@@ -75,11 +75,20 @@
 }
 
 .card-list {
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
   gap: 25px;
+}
+
+@media (min-width: 768px) {
+  .card-list {
+    width: 85%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
 }
 
 /** Section three **/
