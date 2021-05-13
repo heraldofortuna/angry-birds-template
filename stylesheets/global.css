@@ -14,6 +14,8 @@
   --background-button: linear-gradient(180deg, #ffec00 0%, #ffc600 100%);
   --boxshadow-button: 0px 2px 10px rgba(0, 0, 0, 0.15),
     inset 0px 1px 0px rgba(255, 255, 255, 0.75);
+
+  --transition: 0.3s all;
 }
 
 * {

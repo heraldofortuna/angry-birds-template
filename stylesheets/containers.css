@@ -52,6 +52,7 @@
 
 .section--one {
   background-image: url("../assets/section-1.png");
+  padding: 65px 0 100px 0;
 }
 
 .separator-1 {
@@ -62,6 +63,7 @@
 
 .section--two {
   background-image: url("../assets/section-2.png");
+  padding: 65px 0 100px 0;
 }
 
 .separator-2 {

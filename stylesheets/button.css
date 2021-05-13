@@ -16,7 +16,7 @@
   font-size: 17px;
   line-height: 28px;
   transform: translate(15px, 0);
-  transition: all 0.25s ease;
+  transition: var(--transition);
 }
 
 .button__left,
@@ -28,13 +28,13 @@
 .button__left {
   opacity: 1;
   transform: translate(-5px, 0);
-  transition: all 0.25s ease;
+  transition: var(--transition);
 }
 
 .button__right {
   opacity: 0;
   transform: translate(5px, -50px);
-  transition: all 0.25s ease;
+  transition: var(--transition);
 }
 
 .button i {

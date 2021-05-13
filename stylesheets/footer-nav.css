@@ -7,8 +7,26 @@
 }
 
 .footer__nav a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer__nav--text {
   font-size: 16px;
   line-height: 26px;
+  transition: var(--transition);
+}
+
+.footer__nav--icon {
+  opacity: 0;
+  transform: translate(50px, 0px);
+  transition: var(--transition);
+}
+
+.footer__nav a:hover .footer__nav--icon {
+  opacity: 1;
+  transform: translate(4px, 0);
 }
 
 @media (min-width: 768px) {
@@ -16,8 +34,12 @@
     gap: 52px;
   }
 
-  .footer__nav a {
+  .footer__nav--text {
     font-size: 20px;
     line-height: 33px;
+  }
+
+  .footer__nav--icon {
+    font-size: 20px;
   }
 }
