@@ -1,24 +1,63 @@
 .button {
   background: var(--background-button);
-  color: var(--black-color);
   box-shadow: var(--boxshadow-button);
   border-radius: 10px;
   padding: 10px 25px;
   cursor: pointer;
-  /* Text properties */
-  font-size: 17px;
-  line-height: 28px;
   /* Display properties */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+}
+
+.button__text {
+  color: var(--black-color);
+  font-size: 17px;
+  line-height: 28px;
+  transform: translateX(5px);
+  transition: all 0.25s ease;
+}
+
+.button__left,
+.button__right {
+  display: grid;
+  place-items: center;
+}
+
+.button__left {
+  opacity: 1;
+  transform: translate(-5px, 0);
+  transition: all 0.25s ease;
+}
+
+.button__right {
+  opacity: 0;
+  transform: translate(5px, -50px);
+  transition: all 0.25s ease;
 }
 
 .button i {
   color: var(--black-color);
   font-size: 22px;
+}
+
+.button:hover {
+  background: var(--yellow-color);
+}
+
+button:hover .button__left {
+  opacity: 0;
+  transform: translate(-5px, 50px);
+}
+
+button:hover .button__right {
+  opacity: 1;
+  transform: translate(5px, 0);
+}
+
+button:hover .button__text {
+  transform: translateX(-5px);
 }
 
 @media (min-width: 768px) {
