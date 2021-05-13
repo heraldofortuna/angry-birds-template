@@ -31,7 +31,7 @@
     height: 100%;
   }
 
-  .header__nav a {
+  .header__nav--element {
     height: 100%;
     color: var(--black-color);
     font-size: 20px;
@@ -43,7 +43,7 @@
     transition: var(--transition);
   }
 
-  .header__nav a:hover {
+  .header__nav--element:hover {
     background-color: var(--black-color);
     color: var(--white-color);
     text-decoration: underline;
@@ -51,5 +51,11 @@
 
   .header__nav--hamburguer {
     display: none;
+  }
+
+  .active {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    text-decoration: underline;
   }
 }
