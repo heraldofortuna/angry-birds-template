@@ -33,7 +33,7 @@
 
 .button__right {
   opacity: 0;
-  transform: translate(5px, -50px);
+  transform: translate(50px, -50px);
   transition: var(--transition);
 }
 
@@ -52,7 +52,7 @@ button:hover .button__text {
 
 button:hover .button__left {
   opacity: 0;
-  transform: translate(-5px, 50px);
+  transform: translate(-50px, 50px);
 }
 
 button:hover .button__right {
