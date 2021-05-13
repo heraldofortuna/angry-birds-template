@@ -15,7 +15,7 @@
   color: var(--black-color);
   font-size: 17px;
   line-height: 28px;
-  transform: translateX(5px);
+  transform: translate(15px, 0);
   transition: all 0.25s ease;
 }
 
@@ -46,6 +46,10 @@
   background: var(--yellow-color);
 }
 
+button:hover .button__text {
+  transform: translateX(-15px);
+}
+
 button:hover .button__left {
   opacity: 0;
   transform: translate(-5px, 50px);
@@ -56,14 +60,15 @@ button:hover .button__right {
   transform: translate(5px, 0);
 }
 
-button:hover .button__text {
-  transform: translateX(-5px);
-}
-
 @media (min-width: 768px) {
   .button {
     padding: 12px 30px;
     /* Text properties */
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .button__text {
     font-size: 20px;
     line-height: 33px;
   }
