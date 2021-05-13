@@ -20,13 +20,9 @@ This is my second project of Codeable. Codeable is a peruvian bootcamp of full s
 
 ### The challenge
 
-- Make a separate HTML guide in 3 large parts: Typography, Elements and Blocks.
+- Make a special template about Angry Birds website.
 
-- The 3 parts will be on different pages and you can access each one from a sidebar.
-
-- Also, each section should have a small sample of HTML code.
-
-* It has no responsive design (for now)
+- Use Responsive Design in this project.
 
 ### Screenshot
 
@@ -34,8 +30,8 @@ This is my second project of Codeable. Codeable is a peruvian bootcamp of full s
 
 ### Links
 
-- [Solution Link](https://github.com/heraldofortuna/html-css-essentials)
-- [Live Site Link](https://heraldofortuna.github.io/html-css-essentials/)
+- [Solution Link](https://github.com/heraldofortuna/angry-birds-template)
+- [Live Site Link](https://heraldofortuna.github.io/angry-birds-template/)
 
 ## My process
 
@@ -45,20 +41,40 @@ This is my second project of Codeable. Codeable is a peruvian bootcamp of full s
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Responsive Design
 
 ### What I learned
 
-I learned how to write html label as text inside another html tag.
+I learned how to create an special button effect.
 
 ```html
-<code class="code_line identation">
-  <span class="code_line--tag">&lt;button</span>
-  <span class="code_line--attribute">class=</span
-  ><span class="code_line--value">&quot;button button--success&quot;</span
-  ><span class="code_line--tag">&gt;</span>Apply now<span class="code_line--tag"
-    >&lt;&sol;button&gt;</span
-  >
-</code>
+<button class="button">
+  <span class="button__left"><i class="ri-arrow-up-circle-fill"></i></span>
+  <span class="button__text">Download now!</span>
+  <span class="button__right"><i class="ri-arrow-down-circle-fill"></i></span>
+</button>
+```
+
+```css
+.button__text {
+  color: var(--black-color);
+  font-size: 17px;
+  line-height: 28px;
+  transform: translate(15px, 0);
+  transition: var(--transition);
+}
+
+.button__left {
+  opacity: 1;
+  transform: translate(-5px, 0);
+  transition: var(--transition);
+}
+
+.button__right {
+  opacity: 0;
+  transform: translate(50px, -50px);
+  transition: var(--transition);
+}
 ```
 
 ## Author
