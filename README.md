@@ -22,6 +22,14 @@ This is my second project of Codeable. Codeable is a peruvian bootcamp of full s
 
 - Make a special template about Angry Birds website.
 
+- Keep your code DRY (don't repeat yourself).
+
+- Organize your files and directories properly.
+
+- Use semantic HTML and some methodology to name your CSS classes (BEM for example).
+
+- Run your page through Lighthouse to spot any major a11y issues and try to get a green score.
+
 - Use Responsive Design in this project.
 
 ### Screenshot
