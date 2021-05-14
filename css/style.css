@@ -1,9 +1,9 @@
 @import url("./global.css");
 @import url("./containers.css");
-@import url("./social-icons.css");
-@import url("./header-nav.css");
-@import url("./header.css");
-@import url("./button.css");
-@import url("./card.css");
-@import url("./footer-nav.css");
-@import url("./footer.css");
+@import url("./components/social-icons.css");
+@import url("./components/header-nav.css");
+@import url("./components/header.css");
+@import url("./components/button.css");
+@import url("./components/card.css");
+@import url("./components/footer-nav.css");
+@import url("./components/footer.css");
