@@ -1,14 +1,3 @@
-.header__nav--hamburguer i {
-  color: var(--black-color);
-  font-size: 30px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.close-icon {
-  display: none;
-}
-
 .header__nav {
   display: none;
 }
@@ -31,7 +20,7 @@
     height: 100%;
   }
 
-  .header__nav--element {
+  .header__nav__element {
     height: 100%;
     color: var(--black-color);
     font-size: 20px;
@@ -43,14 +32,10 @@
     transition: var(--transition);
   }
 
-  .header__nav--element:hover {
+  .header__nav__element:hover {
     background-color: var(--black-color);
     color: var(--white-color);
     text-decoration: underline;
-  }
-
-  .header__nav--hamburguer {
-    display: none;
   }
 
   .active {
