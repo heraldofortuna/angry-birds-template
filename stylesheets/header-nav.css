@@ -117,7 +117,7 @@
 }
 
 .header__nav__checkbox:checked ~ ul {
-  opacity: 1;
+  opacity: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -216,5 +216,16 @@
 
   .navlist__icons {
     display: none;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translate(50%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
   }
 }
