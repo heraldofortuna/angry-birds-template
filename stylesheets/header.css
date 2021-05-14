@@ -28,6 +28,10 @@ header {
   transform: scale(1.05);
 }
 
+.header__icons {
+  display: none;
+}
+
 @media (min-width: 768px) {
   header {
     height: 90px;
@@ -39,5 +43,9 @@ header {
 
   .header__logo {
     height: 90px;
+  }
+
+  .header__icons {
+    display: block;
   }
 }
