@@ -85,7 +85,19 @@ I learned how to create an special button effect.
 }
 ```
 
+### Continued development
+
+Now I will continue with another Codeable project.
+
+### Useful resources
+
+I used the guides found on Codeable website. Only that.
+
 ## Author
 
 - Codeable - [Codeable](https://www.codeable.la/)
 - Twitter - [@heraldofortuna](https://twitter.com/heraldofortuna)
+
+## Acknowledgments
+
+To Diego, Wences and Deyvi, my mentors.
